@@ -1,0 +1,20 @@
+# --- Pastas de Compilação do C# / .NET ---
+# Ignora as pastas que o Visual Studio cria automaticamente ao rodar o código
+**/bin/
+**/obj/
+
+# --- Arquivos do Visual Studio ---
+# Ignora configurações locais do editor que mudam de computador para computador
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# --- Arquivos de Log e Temporários ---
+*.log
+*.tmp
+
+# --- Pastas do Sistema Operacional ---
+.DS_Store
+Thumbs.db
